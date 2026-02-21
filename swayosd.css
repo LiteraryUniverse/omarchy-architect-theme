@@ -1,0 +1,33 @@
+/* Architect — SwayOSD
+ * Art Deco: obsidian, gold border, zero radius, gold progress
+ */
+
+@define-color background-color #1A1810;
+@define-color border-color     #C9A84C;
+@define-color label            #EDE8E0;
+@define-color image            #C8C0B4;
+@define-color progress         #C9A84C;
+
+window:not(:backdrop),
+window:backdrop {
+    border: none;
+    border-width: 0;
+    border-radius: 0px;
+    background-color: transparent;
+    box-shadow: none;
+    padding: 12px;
+}
+
+window:not(:backdrop) #container,
+window:backdrop #container {
+    border: 1px solid @border-color;
+    border-radius: 0px;
+    background-color: @background-color;
+    padding: 12px;
+    background-clip: padding-box;
+    /* Art Deco double-border */
+    box-shadow:
+        0 0 0 1px #1A1810,
+        0 0 0 2px alpha(@border-color, 0.35),
+        2px 4px 16px 0px rgba(0, 0, 0, 0.9);
+}

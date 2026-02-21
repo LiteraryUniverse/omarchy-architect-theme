@@ -1,0 +1,15 @@
+/* Architect — Waybar
+ * Art Deco: obsidian bar, gold accent, platinum text
+ */
+
+@define-color background #1A1810;
+@define-color foreground #EDE8E0;
+@define-color black      #0E0D0D;
+@define-color red        #D94040;
+@define-color green      #A8B8C8;
+@define-color yellow     #C9A84C;
+@define-color blue       #0575BC;
+@define-color magenta    #FF83D5;
+@define-color cyan       #C12577;
+@define-color white      #EDE8E0;
+@define-color bright-black #2A2820;

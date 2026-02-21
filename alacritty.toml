@@ -1,0 +1,68 @@
+# Architect — Alacritty
+# Art Deco: pure obsidian, platinum, champagne gold, chrome silver, LU pink
+
+[colors.primary]
+background = "#0E0D0D"
+foreground = "#EDE8E0"
+dim_foreground = "#7A7870"
+
+[colors.cursor]
+text = "#0E0D0D"
+cursor = "#C9A84C"
+
+[colors.vi_mode_cursor]
+text = "#0E0D0D"
+cursor = "#C9A84C"
+
+[colors.search.matches]
+foreground = "#0E0D0D"
+background = "#C9A84C"
+
+[colors.search.focused_match]
+foreground = "CellBackground"
+background = "CellForeground"
+
+[colors.line_indicator]
+foreground = "None"
+background = "None"
+
+[colors.footer_bar]
+foreground = "#0E0D0D"
+background = "#C9A84C"
+
+[colors.selection]
+text = "CellBackground"
+background = "CellForeground"
+
+# Normal colors — Art Deco architectural palette
+[colors.normal]
+black   = "#0E0D0D"
+red     = "#D94040"
+green   = "#A8B8C8"
+yellow  = "#C9A84C"
+blue    = "#0575BC"
+magenta = "#FF83D5"
+cyan    = "#C12577"
+white   = "#C8C0B4"
+
+# Bright colors
+[colors.bright]
+black   = "#2A2820"
+red     = "#F05050"
+green   = "#C0D0E0"
+yellow  = "#E0C060"
+blue    = "#3A9AD4"
+magenta = "#FFB0E8"
+cyan    = "#E0408A"
+white   = "#EDE8E0"
+
+# Dim colors
+[colors.dim]
+black   = "#080808"
+red     = "#A02828"
+green   = "#6A8090"
+yellow  = "#907030"
+blue    = "#035A96"
+magenta = "#C05A9A"
+cyan    = "#8A1A58"
+white   = "#5A5850"

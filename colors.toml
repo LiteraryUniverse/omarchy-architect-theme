@@ -1,0 +1,26 @@
+# Architect — colors.toml
+# Art Deco: pure obsidian, platinum, champagne gold, chrome silver, LU pink
+
+accent              = "#C9A84C"
+cursor              = "#C9A84C"
+foreground          = "#EDE8E0"
+background          = "#0E0D0D"
+selection_foreground = "#0E0D0D"
+selection_background = "#C9A84C"
+
+color0  = "#0E0D0D"
+color1  = "#D94040"
+color2  = "#A8B8C8"
+color3  = "#C9A84C"
+color4  = "#0575BC"
+color5  = "#FF83D5"
+color6  = "#C12577"
+color7  = "#C8C0B4"
+color8  = "#2A2820"
+color9  = "#F05050"
+color10 = "#C0D0E0"
+color11 = "#E0C060"
+color12 = "#3A9AD4"
+color13 = "#FFB0E8"
+color14 = "#E0408A"
+color15 = "#EDE8E0"
