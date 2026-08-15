@@ -27,5 +27,5 @@ geometric diamond corner accents, zero border-radius on most elements. Crisp sli
 ## Installation
 
 ```bash
-omarchy-theme-install https://github.com/StorytellerCZ/Literary-Universe/omarchy-themes/architect
+omarchy theme install https://github.com/LiteraryUniverse/omarchy-architect-theme
 ```

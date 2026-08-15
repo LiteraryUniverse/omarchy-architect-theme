@@ -1,28 +1,38 @@
-# Architect — colors.toml
+# Architect — colors.toml (Omarchy Quattro schema)
 # Art Deco: pure obsidian, platinum, champagne gold, chrome silver, LU pink
 
-accent              = "#C9A84C"
-cursor              = "#C9A84C"
-foreground          = "#EDE8E0"
-background          = "#0E0D0D"
-selection_foreground = "#0E0D0D"
+mode = "dark"
+
+accent = "#C9A84C"
+selection = "#2A2820"
+muted = "#6E675C"
+
+background = "#0E0D0D"
+dark_background = "#0A0A0A"
+darker_background = "#070707"
+lighter_background = "#1D1B18"
+
+foreground = "#EDE8E0"
+dark_foreground = "#847C6E"
+light_foreground = "#C8C0B4"
+bright_foreground = "#EDE8E0"
+
+red = "#D94040"
+yellow = "#C9A84C"
+orange = "#D08A48"
+green = "#A8B8C8"
+cyan = "#C12577"
+blue = "#0575BC"
+magenta = "#FF83D5"
+brown = "#84683A"
+
+bright_red = "#F05050"
+bright_yellow = "#E0C060"
+bright_green = "#C0D0E0"
+bright_cyan = "#E0408A"
+bright_blue = "#3A9AD4"
+bright_magenta = "#FFB0E8"
+
+# Terminal text selection keeps the champagne gold identity
 selection_background = "#C9A84C"
-
-color0  = "#0E0D0D"
-color1  = "#D94040"
-color2  = "#A8B8C8"
-color3  = "#C9A84C"
-color4  = "#0575BC"
-color5  = "#FF83D5"
-color6  = "#C12577"
-color7  = "#C8C0B4"
-color8  = "#2A2820"
-color9  = "#F05050"
-color10 = "#C0D0E0"
-color11 = "#E0C060"
-color12 = "#3A9AD4"
-color13 = "#FFB0E8"
-color14 = "#E0408A"
-color15 = "#EDE8E0"
-
-icons_theme = "Yaru-prussiangreen-dark"
+selection_foreground = "#0E0D0D"
