@@ -4,6 +4,9 @@
 mode = "dark"
 
 accent = "#C9A84C"
+# Champagne gold into chrome silver, vertical like the rising tower —
+# distinguishes the border from Codex's gold-and-ribbon frame
+hyprland_active_border = "#C9A84C #A8B8C8 90deg"
 selection = "#2A2820"
 muted = "#6E675C"
 
